@@ -1,0 +1,8 @@
+<resources>
+    //login_activity
+    <string name="app_name">pj_hallo</string>
+    <string name="titulo_edt_text_login">Login</string>
+    <string name="titulo_edt_text_senha">Senha</string>
+    <string name="button_login">Login</string>
+    <string name="error_login">Login ou senha inválidos!</string>
+</resources>
