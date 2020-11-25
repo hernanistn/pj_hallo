@@ -12,7 +12,7 @@ class AnnouncementVM : ViewModel() {
     }
 
     fun dataAnnouncement(guid: String, subject: String, message: String, image:String){
-        var item = Announcement(guid, subject, message, image)
+        val item = Announcement(guid, subject, message, image)
         announcement.add(item)
     }
 }
