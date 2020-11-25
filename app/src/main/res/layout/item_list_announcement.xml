@@ -16,7 +16,7 @@
             android:id="@+id/iv_Announcement"
             android:layout_width="80dp"
             android:layout_height="match_parent"
-            android:layout_gravity="left">
+            android:layout_gravity="start">
         </ImageView>
 
         <LinearLayout
