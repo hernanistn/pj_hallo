@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    login
     <dimen name="font_size_login">20dp</dimen>
     <dimen name="margin_inter_components">5dp</dimen>
+
+    itemList
+    <dimen name="font_size_Guid">18dp</dimen>
+    <dimen name="font_size_others">16dp</dimen>
 </resources>

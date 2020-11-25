@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import com.example.pj_hallo.Class.Client
 
 class ClientVM : ViewModel(){
+
     val cliente: Client
 
     init {

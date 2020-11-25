@@ -34,14 +34,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
                 android:text="@string/titulo_edt_text_login"
-                android:textSize="@dimen/font_size_login"></TextView>
+                android:textSize="@dimen/font_size_login">
+            </TextView>
 
             <EditText
                 android:id="@+id/edt_Login"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginBottom="@dimen/margin_inter_components"
-                android:textSize="@dimen/font_size_login"></EditText>
+                android:textSize="@dimen/font_size_login">
+            </EditText>
 
             <TextView
                 android:layout_width="match_parent"
@@ -49,7 +51,6 @@
                 android:layout_marginBottom="@dimen/margin_inter_components"
                 android:text="@string/titulo_edt_text_senha"
                 android:textSize="@dimen/font_size_login">
-
             </TextView>
 
             <EditText
@@ -57,7 +58,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_marginBottom="@dimen/margin_inter_components"
-                android:textSize="@dimen/font_size_login"></EditText>
+                android:textSize="@dimen/font_size_login">
+            </EditText>
 
             <Button
                 android:id="@+id/btn_Login"
@@ -65,11 +67,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/margin_inter_components"
                 android:text="@string/button_login"
-                android:textSize="@dimen/font_size_login"></Button>
-
-
+                android:textSize="@dimen/font_size_login">
+            </Button>
         </LinearLayout>
     </LinearLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

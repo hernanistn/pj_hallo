@@ -4,16 +4,15 @@ import androidx.lifecycle.ViewModel
 import com.example.pj_hallo.Class.Announcement
 
 class AnnouncementVM : ViewModel() {
-        val announcement: Announcement
 
-        init {
-            announcement = Announcement()
-        }
+    val announcement: ArrayList<Announcement>
 
-    fun dataAnnouncement(guild: String, subject: String, message: String, image:String){
-        announcement.guild = guild
-        announcement.subject = subject
-        announcement.message = message
-        announcement.image = image
+    init {
+        announcement = ArrayList()
+    }
+
+    fun dataAnnouncement(guid: String, subject: String, message: String, image:String){
+        var item = Announcement(guid, subject, message, image)
+        announcement.add(item)
     }
 }
